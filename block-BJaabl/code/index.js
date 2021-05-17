@@ -1,6 +1,10 @@
 /*
 1. Create a function named `sayHello` that that accepts a parameter `name` and alert `Hello [name]!`.
 */
+function sayHello(name){
+  alert(`Hello ${name}`);
+}
+sayHello();
 
 /*
 2. Create a function named `getFullName` that accepts two parameter `firstName` and `lastName` and returns
@@ -10,6 +14,10 @@ Example:
   getFullName("John", "Snow"); // "John Snow"
   getFullName("Nelson", "Mandela"); // "Nelson Mandela"
 */
+ function getFullName(firstName,lastName){
+   return (`${firstName} ${lastName}`);
+ }
+ getFullName("Deepak","kushwaha");
 
 /*
 3. Create a function named `addTwoNumbers` that accepts two numbers i.e `firstNum` and `secondNum` and returns
@@ -20,6 +28,13 @@ addTwoNumbers(10, 22); // 32
 addTwoNumbers(20, 32); // 32
 addTwoNumbers(10, "100"); // Alert Enter Valid Input
 */
+function addTwoNumbers(firstNum,secondNum){
+  
+return firstNum+secondNum;
+
+}
+
+addTwoNumbers(alert(""));
 
 /*
 4. Create a function named `calc` which accepts three parameter `numA`, `numB` and `operation`. Operation
@@ -32,6 +47,7 @@ calc(10, 20, 'add'); // 30
 calc(20, 10, 'sub'); // 10
 calc(20, 10, 'mul'); // 200
 */
+function calc (numA,numB,operation)
 
 
 /*
