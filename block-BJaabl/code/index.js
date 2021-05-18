@@ -29,12 +29,19 @@ addTwoNumbers(20, 32); // 32
 addTwoNumbers(10, "100"); // Alert Enter Valid Input
 */
 function addTwoNumbers(firstNum,secondNum){
-  
-return firstNum+secondNum;
+  if(typeof firstNum !=="number" ||typeof secondNum !=="number"){
+   
+    alert("Enter Valid Input")
+  }else{
 
+    return firstNum+secondNum;
+  }
 }
+  
+ 
 
-addTwoNumbers(alert(""));
+
+ 
 
 /*
 4. Create a function named `calc` which accepts three parameter `numA`, `numB` and `operation`. Operation
@@ -47,7 +54,36 @@ calc(10, 20, 'add'); // 30
 calc(20, 10, 'sub'); // 10
 calc(20, 10, 'mul'); // 200
 */
-function calc (numA,numB,operation)
+function calc (numA,numB,operation){
+  if (typeof numA!=="number" ||typeof numB!=="number"){
+    alert( `Enter Valid Input`);
+  }else{
+    switch(operation){
+      case "add":
+        return numA+numB;
+        break;
+        case "sub":
+          return numA-numB; 
+          break;
+          case "mul":
+          return numA*numB; 
+          break;
+          case "div":
+          return numA/numB; 
+          break;
+          default:
+            alert("enter a valid operation");
+    }
+  }
+   
+}
+
+
+
+    
+
+
+
 
 
 /*
@@ -57,8 +93,29 @@ on if the year id leap year or not.
 isLeapYear(2000); // true
 isLeapYear(2001); // false
 */
+function isLeapYear(year){
+
+if(year%400 ==0) {
+  return true;
+}else if(year%100 ==0) {
+  return false;
+}else{
+  return year%4 ===0;
+}
+
+}
 
 
 /*
 6. Create a function named `getFactorial` that accepts a number and return the factorial of the number.
 */
+function getFactorial(number){
+  let factorial =1;
+  for(let i=number; i>=1; i--){
+    factorial =factorial*i;
+    
+  }
+ return factorial;
+ 
+
+}
