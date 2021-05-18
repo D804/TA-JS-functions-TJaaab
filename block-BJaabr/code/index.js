@@ -32,6 +32,7 @@ let returnValue = convertToString(23);
 
 // - What is the typeof returnValue
 // typeof returnValue is "string"
+"string"
 
 /* 1. Add one to the given value
 
@@ -39,16 +40,31 @@ Write a function named `addOne` that accepts a number, adds one to the given val
 
 Do the following with above problem.
 */
+function addOne(number){
+  return number+1;
+
+}
 
 // - Write a Function Declaration
+ function userName(name){
+return name;
+ }
 
 // - Write a Function Expression
+let  userName =function (name){
+  return name;
+}
 
 // - Write an Arrow Function without curly brackets(if possible)
+let userName = (name) => (name);
 
 // - Write an Arrow Function with curly brackets
+let userName = (name) =>{
+  return (name);
+}
 
 // - Execute the function
+let details =userName();
 
 // - Execute the function and store the return value in a variable.
 
