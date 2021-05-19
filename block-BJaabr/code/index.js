@@ -285,4 +285,5 @@ oddOrEven();
 let storeevenOrOdd =oddOrEven();
 
 // - What is the typeof returnValue.
+"number"
 
