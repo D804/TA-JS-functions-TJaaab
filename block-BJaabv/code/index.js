@@ -8,8 +8,10 @@
   * [ ] Add an additional argument to the function that takes the conversion rate of human to dog years.
 */
 
-function calculateDogAge() {
-  // Your code goes here
+function calculateDogAge( age ,convertedAge) {
+ 
+  let conversionRate =age*7;
+  return conversionRate;
 }
 
 /*
@@ -19,8 +21,8 @@ function calculateDogAge() {
   * [ ] Return the total number of movie you will watch.
 */
 
-function calculateMoviesToWatch() {
-  // Your code goes here
+function calculateMoviesToWatch(age,watchedMoviesPerWeek) {
+  
 }
 
 /*
@@ -29,8 +31,9 @@ function calculateMoviesToWatch() {
   * [ ] Convert it to fahrenheit and return "NN°F is NN°C"
 */
 
-function celsiusToFahrenheit() {
-  // Your code goes here
+function celsiusToFahrenheit(celsiusTemperature) {
+ let conversion =(celsiusTemperature*9/5)+33;
+ return `${celsiusTemperature}°F is ${conversion}°C"`
 }
 
 /*
@@ -39,9 +42,11 @@ function celsiusToFahrenheit() {
   * [ ] Convert it to celsius and return "NN°F is NN°C"
 */
 
-function celsiusToFahrenheit() {
-  // Your code goes here
+function celsiusToFahrenheit(fahrenheitTemperature) {
+  let conversionCelsius =((fahrenheitTemperature-32)*5/9);
+  return `${fahrenheitTemperature}°F is ${conversionCelsius}°C"`
 }
+
 
 /*
 5. 🎖 Write a function pow(n, x) that returns x in power n.
@@ -52,7 +57,7 @@ function celsiusToFahrenheit() {
 */
 
 function pow() {
-  // Your code goes here
+  
 }
 
 // Test
@@ -66,8 +71,8 @@ pow(-31, 2); // "The number below 1 is not allowed"
 and return sum or product of 1,…,n. If user enters any other value than `sum` or `product` alert `Not a valid Input`.
 */
 
-function sumOrProductOfN() {
-  // Your code goes here
+function sumOrProductOfN(number,string ,operation) {
+  
 }
 
 sumOrProductOfN(4, 'sum'); // 10
