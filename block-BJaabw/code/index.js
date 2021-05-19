@@ -11,10 +11,14 @@ minToSec(2) ➞ 120
 */
 
 // - Write a Function Decleration for above problem
-function minToSec() {
-  // Your code
+function minToSec(minutes) {
+  
 }
 // - Execute the function with required parameter
+function minToSec(minutes) {
+  minutes=minutes*60;
+  console.log(minutes);
+}
 
 /* 2. 
 Create a function named isInRange which validates whether a number n is exclusively within the bounds of lower and upper.
