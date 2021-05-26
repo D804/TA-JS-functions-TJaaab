@@ -206,7 +206,7 @@ let isGreater = function(x,y){
   }
 }
 // - Write an Arrow Function without curly brackets(if possible)
-(x>y) ?`true`:`false`;
+let isGreater=(x>y) ?`true`:`false`;
 
 // - Write an Arrow Function with curly brackets
 
