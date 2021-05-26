@@ -17,11 +17,11 @@ sayHello();
   - Concat the value of fistName and lastName and store it in another variable named `fullName`.
   - Alert `fullName`
 */
-function fullNamed(){
+function fullnamed(){
   let firstName = prompt(`Enter your first name`);
   let lastName = prompt(`Enter your last name`);
   let fullName = (`${firstName} ${lastName}`);
-  alert(fullName);
+  alert(fullname);
 }
 fullNamed();
 
@@ -104,7 +104,8 @@ function getFactorial(){
   let factorial = 1;
   for(let i=number;i>=1;i--){
        factorial= (factorial*i);
- alert(`The factorial of ${number} is ${factorial}`) 
+
   }
+  alert(`The factorial of ${number} is ${factorial}`); 
 }
 getFactorial();
